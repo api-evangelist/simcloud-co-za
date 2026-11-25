@@ -1,4 +1,4 @@
-# simcloud-co-za
+# SIMcloud
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-simcloud-co-za is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://simcloud.co.za/
+SIMcloud provides a bulk airtime, bulk data and SIM card recharge platform for South African businesses. It enables companies to manage fleets, track spend, and integrate recharge APIs, offering a comprehensive solution for bulk telecommunications services across South Africa.
+
+**Areas:** Telecom · SouthAfrica · BulkRecharge · API · Payments
+
+## SIMcloud on APIs.io
+
+Everything profiled for SIMcloud is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/simcloud-co-za/](https://apis.io/providers/simcloud-co-za/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [SIMcloud Airtime API](https://apis.io/apis/simcloud-co-za/simcloud-co-za-airtime-api/) — The Airtime API from SIMcloud — 1 operation(s) for airtime.
+- [SIMcloud Balance API](https://apis.io/apis/simcloud-co-za/simcloud-co-za-balance-api/) — The Balance API from SIMcloud — 1 operation(s) for balance.
+- [SIMcloud Data API](https://apis.io/apis/simcloud-co-za/simcloud-co-za-data-api/) — The Data API from SIMcloud — 1 operation(s) for data.
+- [SIMcloud Electricity API](https://apis.io/apis/simcloud-co-za/simcloud-co-za-electricity-api/) — The Electricity API from SIMcloud — 1 operation(s) for electricity.
+- [SIMcloud Network Lookup API](https://apis.io/apis/simcloud-co-za/simcloud-co-za-network-lookup-api/) — The Network Lookup API from SIMcloud — 1 operation(s) for network lookup.
+- [SIMcloud Registration API](https://apis.io/apis/simcloud-co-za/simcloud-co-za-registration-api/) — The Registration API from SIMcloud — 1 operation(s) for registration.
+- [SIMcloud SMS API](https://apis.io/apis/simcloud-co-za/simcloud-co-za-sms-api/) — The SMS API from SIMcloud — 1 operation(s) for sms.
+- [SIMcloud Transaction History API](https://apis.io/apis/simcloud-co-za/simcloud-co-za-transaction-history-api/) — The Transaction History API from SIMcloud — 1 operation(s) for transaction history.
+- [SIMcloud VAS API](https://apis.io/apis/simcloud-co-za/simcloud-co-za-vas-api/) — The VAS API from SIMcloud — 1 operation(s) for vas.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SIMcloud Agentic Access](https://apis.io/agentic-access/simcloud-co-za/simcloud-co-za-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ElectricityAccepted](https://apis.io/schemas/simcloud-co-za/simcloud-co-za-electricity-accepted/)
+- [RechargeQueued](https://apis.io/schemas/simcloud-co-za/simcloud-co-za-recharge-queued/)
+- [RechargeStatus](https://apis.io/schemas/simcloud-co-za/simcloud-co-za-recharge-status/)
+- [TransactionHistory](https://apis.io/schemas/simcloud-co-za/simcloud-co-za-transaction-history/)
+- [VasQueued](https://apis.io/schemas/simcloud-co-za/simcloud-co-za-vas-queued/)
+- [VasStatus](https://apis.io/schemas/simcloud-co-za/simcloud-co-za-vas-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Simcloud Co Za Context](https://apis.io/jsonld/simcloud-co-za/simcloud-co-za-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SIMcloud API Rules](https://apis.io/rules/simcloud-co-za/simcloud-co-za-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SIMcloud Authentication](https://apis.io/security/simcloud-co-za/simcloud-co-za-authentication/)
+- [SIMcloud Domain Security](https://apis.io/security/simcloud-co-za/simcloud-co-za-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://simcloud.co.za/)
+- [Documentation](https://simcloud.co.za/api/index.html)
+- [Getting started](https://simcloud.co.za/mcp-reporting.php)
+- [Pricing](https://simcloud.co.za/public_data_bundles.php)
+- [Sign up](https://simcloud.co.za/register.php)
+- [Blog](https://simcloud.co.za/blog/)
+- [Terms of service](https://simcloud.co.za/legal.php)
+- [Privacy policy](https://simcloud.co.za/chatgpt-reporting-privacy.php)
+
+## API Evangelist rating
+
+**Kin Score 45.9** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 36.2 |
+
+**Agent readiness 61.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 15.8** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/simcloud-co-za/](https://apis.io/providers/simcloud-co-za/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SIMcloud: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/simcloud-co-za/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
